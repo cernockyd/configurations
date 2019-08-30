@@ -9,7 +9,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -23,7 +23,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " To ignore plugin indent changes, instead use:
-"filetype plugin on
+" filetype plugin on
 "
 " Brief help
 " :PluginList       - lists configured plugins
@@ -42,6 +42,17 @@ set number
 set hlsearch
 set ruler
 highlight Comment ctermfg=green
+
+" find recursively
+set path+=**
+" ignore folders when performing :find
+set wildignore+=**/node_modules/**,**/vendor/**,**/.git/**,**/vendor/**,**/.next/**
+
+" show tab autocomplete bar
+set wildmenu
+set wildmode=longest:list,full
+
+" always show status at bottom
 set laststatus=2
 
 " function! GitBranch()
