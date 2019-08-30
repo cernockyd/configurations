@@ -55,6 +55,9 @@ set wildmode=longest:list,full
 " always show status at bottom
 set laststatus=2
 
+" leave unsaved buffer and keep it reachable using ls and b[n] command
+set hidden
+
 " function! GitBranch()
 "   return system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
 " endfunction
