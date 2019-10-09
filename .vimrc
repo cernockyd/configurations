@@ -81,3 +81,5 @@ set hidden
 " set statusline+=\ %l:%c
 " set statusline+=%{StatuslineGit()}
 " set statusline+=\ 
+"
+set timeoutlen=1000 ttimeoutlen=0
