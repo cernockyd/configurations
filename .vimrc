@@ -16,7 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Keep Plugin commands between vundle#begin/end.
 
-Plugin 'heerun/vim-polyglot'
+Plugin 'sheerun/vim-polyglot'
 Plugin 'vimwiki/vimwiki'
 
 " All of your Plugins must be added before the following line
