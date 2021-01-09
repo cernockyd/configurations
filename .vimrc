@@ -40,7 +40,15 @@ set shiftwidth=2
 set expandtab
 set ai
 set number
+" enable highlight search
 set hlsearch
+" highlight while search 
+set incsearch
+" insensivity pattern matching
+set ignorecase
+" override ignorecase if pattern contains uppercase
+set smartcase
+
 set ruler
 highlight Comment ctermfg=green
 
