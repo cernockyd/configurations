@@ -1,1 +1,2 @@
-PS1="~ $: ";clear;
+alias ll='ls -al';
+PROMPT="~ $: ";clear;
