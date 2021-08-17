@@ -48,6 +48,9 @@ set incsearch
 set ignorecase
 " override ignorecase if pattern contains uppercase
 set smartcase
+" set line wrapping
+set wrap
+set linebreak
 
 set ruler
 highlight Comment ctermfg=green
